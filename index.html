@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Manager Plus</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="font-icon/styles.css" />
+    <link rel="stylesheet" href="./css/font.css">
+</head>
+
+<body id="scroll">
+
+    <div class="wrapper">
+        <!----------------------------HEADER--------------------------------->
+
+        <header>
+            <nav class="nav_header">
+                <div class="nav_header_top">
+                    <div class="me_logo"></div>
+                    <ul>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">Store</a></li>
+                        <li><a href="">Partner</a></li>
+                        <li><a href="">Support</a></li>
+                        <li>
+                            <span class="divide">|</span>
+                            <span class="user-thumb hand"></span>
+                        </li>
+                        <li><span class="search-icon hand"></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav_header_bottom">
+                    <div class="prod_logo"></div>
+
+                    <div class="toggle-btn">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+
+                    <div class="nav_elements_bottom">
+                        <ul class="nav-elements">
+                            <li><a href="#">Overview</a></li>
+                            <li><a
+                                    href="https://www.manageengine.com/privileged-session-management/features.html">Features</a>
+                            </li>
+                            <li><a
+                                    href="https://www.manageengine.com/privileged-session-management/demo-request.html">Demo</a>
+                            </li>
+                            <li><a
+                                    href="https://www.manageengine.com/privileged-session-management/resources.html">Resources</a>
+                            </li>
+                            <li><a
+                                    href="https://www.manageengine.com/privileged-session-management/support.html">Support</a>
+                            </li>
+                        </ul>
+                        <button class="get_quote hand" id="get_quote"><a
+                                href="https://www.manageengine.com/privileged-session-management/get-quote.html">Get
+                                Quote <strong>$</strong></a>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-----------------------------HERO---------------------------------->
+
+        <section class="hero">
+
+            <div class="hero_bg">
+
+                <div class="hero_image">
+                    <div class="hero_image_left">
+                        <div class="hero_top_image">
+                            <div class="hero_text">
+                                <h2>Privileged Session Management</h2>
+                                <h3>Build a better security posture</h3>
+                            </div>
+                            <img src="./images/banner_img.svg" alt="" class="pc">
+                        </div>
+                        <img src="./images/Asset 1.png" alt="" class="oval">
+                    </div>
+                </div>
+                <div class="form_top">
+                    <div class="hero_form">
+                        <h3>Download Access Manager Plus</h3>
+                        <form action="" id="dwnld_form">
+                            <input type="text" name="" id="name" placeholder="Name*">
+                            <p class="err" id="err_name">*enter valid input</p>
+                            <input type="email" name="" id="email" placeholder="Business Email*">
+                            <p class="err" id="err_email">*enter valid input</p>
+                            <input type="tel" name="" id="num" placeholder="Phone Number*">
+                            <p class="err" id="err_num">*enter valid input</p>
+                            <select name="" id="">
+                                <option value="Select Country" disabled selected>--Select Country--</option>
+                                <option value="India">India</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Australia">Australia</option>
+                            </select>
+                            <p class="form_para mar6">By clicking <strong>'Download'</strong>, you agree to the <a
+                                    href="">License Agreement</a> and <a href="">Privacy Policy.</a></p>
+                            <input type="submit" value="Download" class="download_button" onclick="download(event)">
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!----------------------------REVIEW--------------------------------->
+
+        <section class="reviews">
+
+            <div class="reviews_text">
+                <h3>What most IT teams go without</h3>
+                <p>Sessions with administrative access to critical systems in IT infrastructure often only have minimal,
+                    superficial controls. Privileged session control workflows in most enterprises today stop at
+                    assessing access requests and logging the launch of a privileged session, without capturing all the
+                    activities performed during that session. In a poorly monitored system, a malicious user with
+                    privileged insider access can easily view and modify confidential data, create backdoors, and
+                    effortlessly hide their tracks by deleting audit logs.</p>
+            </div>
+
+            <div class="car_container">
+                <div class="carousel">
+                    <div class="car_slider">
+                        <section class="review_comment">
+                            <article class="comment orange">
+                                <img src="./images/quote-icon.svg" alt="">
+                                <p>1Verizon's 2019 Data Breach Investigations report found that 34 percent of all
+                                    breaches are caused by malicious insiders.</p>
+                            </article>
+                            <article class="comment green">
+                                <img src="./images/quote-icon-green.svg" alt="">
+                                <p>1The Independent Oracle User Group survey reported that 75 percent of organizations
+                                    cannot monitor their database admins.</p>
+                            </article>
+                        </section>
+                        <section class="review_comment">
+                            <article class="comment orange">
+                                <img src="./images/quote-icon.svg" alt="">
+                                <p>2Lorem ipsum dolor sit amet consectetur ae. Laborum ut dolorum, alias veritatis
+                                    voluptates ullam sapiente blanditiis provident eum cupiditate
+                                </p>
+                            </article>
+                            <article class="comment green">
+                                <img src="./images/quote-icon-green.svg" alt="">
+                                <p>2Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex fugiat explicabo
+                                    nulla debitis praesentium? Nemo repudiandae et officiis consequatur.
+                                </p>
+                            </article>
+                        </section>
+                    </div>
+
+                    <div class="controls">
+                        <span class="arrow left"></span>
+                        <span class="arrow right"></span>
+                        <ul>
+                            <li class="selected"></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!---------------------------EVIDENCE-------------------------------->
+
+        <section class="evidence">
+            <div class="evidence_text">
+                <h3>Session recordings and audit trials</h3>
+                <h4>The bullet proof evidence</h4>
+                <p>Enterprises need to go beyond manual monitoring and traditional privileged session management
+                    workflows to gain proactive insights into all privileged activities and minimize threats. As for
+                    supporting compliance standards and improving accountability for privileged users, there are no
+                    substitutes for tamperproof session recordings and audit trails.</p>
+            </div>
+
+            <div class="evidence_image">
+                <img src="./images/dummy_img.png" alt="" class="dummy">
+            </div>
+        </section>
+
+        <!---------------------------FEATURES-------------------------------->
+
+        <section class="features">
+
+            <div class="features_title">
+                <h3>Section Title</h3>
+                <p>Access Manager Plus lets you control access to critical systems, monitor and record all privileged
+                    user activities, and support compliance audits - all from a single point of control.</p>
+            </div>
+
+            <div class="list">
+
+                <section class="advantages">
+                    <img src="./images/dummy_img.png" alt="">
+                    <div class="advantage_text">
+                        <h4>Easier Workflows</h4>
+                        <p>Granular access controls to review privileged access requests and enable auto-logon for SQL,
+                            RDP, SSH, and VNC remote sessions.</p>
+                    </div>
+                </section>
+
+                <section class="advantages marl100 rev">
+                    <div class="advantage_text">
+                        <h4>Improved Visibility</h4>
+                        <p>Privileged session monitoring to oversee activities on remote servers, databases, and other
+                            critical systems, and terminate suspicious sessions instantly</p>
+                    </div>
+                    <img src="./images/dummy_img.png" alt="">
+                </section>
+
+                <section class="advantages">
+                    <img src="./images/dummy_img.png" alt="">
+                    <div class="advantage_text">
+                        <h4>Better accountability</h4>
+                        <p>Privileged session recording that captures all user activities in replayable, video format
+                            for security-relevant evidence during audits.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="advantages marl100 rev">
+                    <div class="advantage_text">
+                        <h4>Compliance support</h4>
+                        <p>In-depth logging of every user activity to support forensic analyses, and integration with
+                            various SIEM management tools for advanced insights.</p>
+                    </div>
+                    <img src="./images/dummy_img.png" alt="">
+                </section>
+
+            </div>
+
+        </section>
+
+        <!---------------------------FOOTERBAR------------------------------->
+
+        <section class="footer_strip">
+            <ul>
+                <li id="download">
+                    <a href="#">Download</a>
+                </li>
+                <li>
+                    <a href=""><span class="s-icon icon-s-feature"></span><br>Features</a>
+                </li>
+                <li>
+                    <a href=""><span class="s-icon icon-s-demo"></span><br>Demo</a>
+                </li>
+                <li>
+                    <a href=""><span class="s-icon icon-s-quote"></span><br>Get Quote</a>
+                </li>
+                <li>
+                    <a href=""><span class="s-icon icon-s-buynow"></span><br>Buy Now</a>
+                </li>
+            </ul>
+        </section>
+
+        <!----------------------------FOOTER--------------------------------->
+
+        <section class="footer_strip2">
+            <div class="company">
+                <h4>Company</h4>
+                <div class="company_list">
+                    <ul class="company_list1">
+                        <li><a href="">About us</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Events</a></li>
+                        <li><a href="">Customers</a></li>
+                        <li><a href="">Pitstop</a></li>
+                        <li><a href="">Partner Portal</a></li>
+                        <li><a href="">Affiliate</a></li>
+                        <li><a href="">Government</a></li>
+                        <li><a href="">Newsletter</a></li>
+                        <li><a href="">Cookie Policy</a></li>
+                    </ul>
+                    <ul class="company_list2">
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Site map</a></li>
+                        <li><a href="">Trademarks</a></li>
+                        <li><a href="">EULA</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Feedback</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Security</a></li>
+                        <li><a href="">Security Response Center</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="form">
+
+                <div class="region">
+                    <h4>Regional Websites</h4>
+                    <div class="language">
+                        <img src="./images/footer-icon-rs.svg" alt="">
+                        <select name="language" id="">
+                            <option value="" selected>Global (English)</option>
+                            <option value="">América Latina (Spanish)</option>
+                            <option value="">Australia (English)</option>
+                            <option value="">Brazil (Português)</option>
+                            <option value="">Belgium (Dutch)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="newsletter">
+                    <h4>Newsletter</h4>
+                    <span>Subscribe to Monthly Newsletter</span>
+
+                    <div class="mail">
+                        <input type="email" name="" id="" placeholder="Email*" required>
+                        <div class="send"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="links">
+
+                <div class="socials">
+                    <h4>Follow us:</h4>
+                    <div class="soc_icons">
+                        <a href=""><img src="./images/footer-sprite.svg" alt=""></a>
+                        <a href=""><img src="./images/footer-icon-tw.svg" alt=""></a>
+                        <a href=""><img src="./images/footer-icon-in.svg" alt=""></a>
+                        <a href=""><img src="./images/footer-icon-yt.svg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="cred">ManageEngine is a division of
+                    <span><img src="./images/zoho.svg" alt=""></span> Corp.
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--------------------------COPYRIGHTS------------------------------->
+
+        <section>
+            <div class="end">© 2022 Zoho Corp. All rights reserved.</div>
+        </section>
+
+        <!------------------------------END----------------------------------->
+
+    </div>
+
+    <script src="./javascript/main.js"></script>
+
+</body>
+
+</html>
